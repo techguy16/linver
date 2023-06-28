@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 linver 1.0.0 - made by @techguy16
 Probably the best recreation of Winver for Linux
@@ -6,6 +7,7 @@ Probably the best recreation of Winver for Linux
 Yes it is very incomplete, due to not having a banner for every distro,
 but hey - it works.
 """
+
 from tkinter import *
 from tkinter import ttk
 import os
@@ -64,6 +66,10 @@ elif distrov == 'Canonical Ubuntu':
     path = PhotoImage(file='assets/Ubuntu.png')
 elif distrov == 'Linux Mint':
     path = PhotoImage(file='assets/LinuxMint.png')
+elif distrov == 'Manjaro':
+    path = PhotoImage(file='assets/Manjaro.png')
+elif distrov == 'Arch Linux':
+    path = PhotoImage(file='assets/ArchLinux.png')
 else:
     path = PhotoImage(file="assets/Linux.png")
 
@@ -95,4 +101,13 @@ okbutton.place(x=345, y=377)
 # For compatibility. That's it.
 root.mainloop()
 
-# If you made it this far, take a breather.
+"""
+If you made it this far, take a breather. You're about to be hit with a congrats from me!
+
+Congrats for trying out my project, and even better, looking at the code!
+
+@techguy16
+https://github.com/techguy16
+https://youtube.com/@techguy16
+
+"""
