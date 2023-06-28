@@ -2,6 +2,7 @@
 Winver recreation for Linux
 
 ![Linver running on Pop!_OS](img/linver-popos.png)
+![Linver running on Ubuntu](img/linver-ubuntu.png)
 
 ### Linux distros with an image
 Distro Logo | Distro Name
